@@ -15,6 +15,7 @@ def getCSVObject(file):
     reader = csv.reader(open(dir + '/data/'+ dataSource + '_' + file + '.csv', 'r'))
     return reader
 
+
 def timeStrfMin():
     # 获取当前时间
     now = datetime.datetime.now()
